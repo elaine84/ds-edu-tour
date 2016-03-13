@@ -76,15 +76,15 @@
 
 ## Technical challenges and possible future directions
 
-* Scaling **up** to more students
+### Scaling **up** to more students
 
-    * Adding users reveals bugs
+* Adding users reveals bugs
 
-* Scaling **out** to more classes
+### Scaling **out** to more classes
 
-    * A JupyterHub hub?
+* A JupyterHub hub?
 
-    * [jupyter-synchronized-folders](https://github.com/elaine84/jupyter-synchronized-folders)
+* [jupyter-synchronized-folders](https://github.com/elaine84/jupyter-synchronized-folders)
 [design doc](https://github.com/elaine84/jupyter-synchronized-folders/blob/proposal/design.md)
 
 ## Other resources
