@@ -8,7 +8,7 @@
 
 ### Who is this for?
 * Designed for anyone who wants to learn about UC Berkeley's data science program but doesn't have an account on [data8.berkeley.edu](https://data8.berkeley.edu/)
-* Snapshot for folks at [JupyterDays Boston 2016](http://blog.jupyter.org/2016/02/16/jupyterdays-boston-2016/) (March 17-18, 2016 in Cambridge, MA) -- hopefully provides plenty of materials to explore, fork, and hack on during Friday's coding and projects session
+* This snapshot is for folks at [JupyterDays Boston 2016](http://blog.jupyter.org/2016/02/16/jupyterdays-boston-2016/) (March 17-18, 2016 in Cambridge, MA) -- hopefully provides plenty of materials to explore, fork, and hack on during Friday's coding and projects session
 
 ### What will you find here?
 * An overview of the UC Berkeley's new data science education program
@@ -84,8 +84,10 @@
 
 * A JupyterHub hub?
 
-* [jupyter-synchronized-folders](https://github.com/elaine84/jupyter-synchronized-folders)
-[design doc](https://github.com/elaine84/jupyter-synchronized-folders/blob/proposal/design.md)
+* Dropbox-like content management?
+    * [jupyter-synchronized-folders](https://github.com/elaine84/jupyter-synchronized-folders)
+    * See the [design doc](https://github.com/elaine84/jupyter-synchronized-folders/blob/proposal/design.md)
+
 
 ## Other resources
 * [jupyter-education Google Group](https://groups.google.com/forum/#!forum/jupyter-education)
