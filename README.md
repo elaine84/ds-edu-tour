@@ -1,4 +1,4 @@
-## A guided tour of UC Berkeley's data science education program
+## A guided tour of Jupyter in UC Berkeley's data science education program
 
 * This document compiles information distributed across many web pages and GitHub repositories involved in running a live suite of data science courses.
 * These valuable resources -- designed for and by UC Berkeley students, instructors, and others supporting classes at Berkeley -- are publicly available.
@@ -60,7 +60,6 @@
 
     git clone https://github.com/data-8/data8assets.git
 
-
 ## JupyterHub deployment
 
     git clone https://github.com/data-8/jupyterhub-deploy.git
@@ -84,9 +83,8 @@
 
 * A JupyterHub hub?
 
-* Dropbox-like content management?
-    * [jupyter-synchronized-folders](https://github.com/elaine84/jupyter-synchronized-folders)
-    * See the [design doc](https://github.com/elaine84/jupyter-synchronized-folders/blob/proposal/design.md)
+* A Dropbox-like interface to GitHub to help instructors with content management?
+    * See the [design doc](https://github.com/elaine84/jupyter-synchronized-folders/blob/proposal/design.md) for an experiment called [jupyter-synchronized-folders](https://github.com/elaine84/jupyter-synchronized-folders)
 
 
 ## Other resources
