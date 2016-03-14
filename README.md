@@ -64,7 +64,7 @@
     * Models: Making assumptions and exploring their consequences
 
 * [data8.org](https://data-8.appspot.com/sp16/course) is primarily a student-facing website and its links to computer lab assignments will **not** work for anyone who doesn't have a course account
-* We'll show you everything that goes into making these links work for students and how to find the underlying source materials hosted on GitHub across various repositories belonging to the [data-8 organization](https://github.com/data-8)
+* We'll show you everything that goes into making these links work for students and how to find the underlying source materials hosted on GitHub across various repositories of the [data-8 organization](https://github.com/data-8)
 
 ### Online textbook: [www.inferentialthinking.com](http://www.inferentialthinking.com/)
 
@@ -80,17 +80,19 @@ When a student clicks the Interact button, they are redirected to a Jupyter note
 
 ![textbook-interact-jupyterhub](screenshots/textbook-interact-jupyterhub.png)
 
-### DATA 8 JupyterHub deployment user interface
+### What's going on?
 
-### Behind the scenes
-
-[textbook github repo](https://github.com/data-8/textbook)
+[The textbook is hosted in a github repo](https://github.com/data-8/textbook)
 
     git clone https://github.com/data-8/textbook.git
+
+[Gitbook](https://www.gitbook.com/) allows us to [write and organize our chapters using markdown](https://help.gitbook.com/format/chapters.html).
 
 [DS8-Interact github repo](https://github.com/data-8/DS8-Interact)
 
     git clone https://github.com/data-8/DS8-Interact.git
+
+### DATA 8 JupyterHub deployment user interface
 
 ### Computer lab assignments are Jupyter notebooks
 
