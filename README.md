@@ -17,14 +17,14 @@
 
 ## DATA 8: Foundations of Data Science
 
-### Overview
+### Course overview
 * Teaches computational and inferential (statistical) thinking through interaction with real data
 * Pilot run in Fall 2015 with ~80 students
 * Current Spring 2016 enrollment at ~470 students
 * Three 50 min lectures + 2 hour computer lab session per week
 * Enriched by a suite of connector courses teaching diverse subjects through the lens of data science
 
-### Course design requirements
+### Design requirements
 * Must be accessible to all incoming first-years at UC Berkeley
 * Assume no computer science background and only high school algebra
 * Get students immediately interacting with data programmatically
@@ -53,20 +53,24 @@
     * Inference: Reasoning about populations by computing over samples
     * Models: Making assumptions and exploring their consequences
 
-* [data.org](https://data-8.appspot.com/sp16/course) is primarily a student-facing website and its links to labs and homework assignments will **not** work for anyone who doesn't have a course account
+* [data8.org](https://data-8.appspot.com/sp16/course) is primarily a student-facing website and its links to computer lab assignments will **not** work for anyone who doesn't have a course account
 * We'll show you everything that goes into making these links work for students and how to find the underlying source materials hosted on GitHub across various repositories belonging to the [data-8 organization](https://github.com/data-8)
 
-### Online textbook
+### Online textbook: [www.inferentialthinking.com](http://www.inferentialthinking.com/)
 
-[www.inferentialthinking.com](http://www.inferentialthinking.com/)
+![textbook](/screenshots/textbook.png)
 
-[github repo](https://github.com/data-8/textbook.git)
+[textbook github repo](https://github.com/data-8/textbook)
 
     git clone https://github.com/data-8/textbook.git
 
-### Labs + homework assignments are Jupyter notebooks
+[DS8-Interact github repo](https://github.com/data-8/DS8-Interact)
 
-[data8assets](https://github.com/data-8/data8assets)
+    git clone https://github.com/data-8/DS8-Interact.git
+
+### Computer lab assignments are Jupyter notebooks
+
+[data8assets github repo](https://github.com/data-8/data8assets)
 
     git clone https://github.com/data-8/data8assets.git
 
