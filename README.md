@@ -1,7 +1,7 @@
-## A guided tour of UC Berkeley's data science education program
+## Jupyter in UC Berkeley's data science education program
 
-* This document compiles information distributed across many web pages and GitHub repositories involved in running a live suite of data science courses.
-* These valuable resources -- designed for and by UC Berkeley students, instructors, and others supporting classes at Berkeley -- are publicly available.
+* This document provides a guided tour of information distributed across many web pages and GitHub repositories involved in running a live suite of data science courses at UC Berkeley.
+* These valuable resources -- designed for and by UC Berkeley students, instructors, and other teaching and support staff -- are publicly available.
 * This content should be of broad interest to diverse folks thinking about data science education, using Jupyter notebooks in the classroom, and/or deploying and scaling JupyterHub.
 
 **Keywords: data science, UC Berkeley, undergraduate education, Jupyter notebooks, JupyterHub deployment**
@@ -15,26 +15,46 @@
 * Pointers to current course materials distributed as Jupyter notebooks
 * An overview of the live JupyterHub-based infrastructure
 
+### Some dependencies
+* All course content and software is viewable online
+* You'll need a [GitHub](https://github.com/) account if you want to clone or fork this content
+    * There will be an introduction to [Git](https://git-scm.com/) and [GitHub](https://github.com/) on Friday
+* Course content is distributed as Jupyter notebooks that have several Python dependencies
+    * [Python 3](https://www.python.org/downloads/) and [Jupyter](http://jupyter.readthedocs.org/en/latest/install.html)
+    * The [datascience](https://pypi.python.org/pypi/datascience/) Python package
+
 ## DATA 8: Foundations of Data Science
 
 ### Course overview
 * Teaches computational and inferential (statistical) thinking through interaction with real data
-* Aimed at incoming first-years at UC Berkeley
-* Assumes no computer science background and only high school algebra
 * Pilot run in Fall 2015 with ~80 students
 * Current Spring 2016 enrollment at ~470 students
+* Three 50 min lectures + 2 hour computer lab session per week
+* Enriched by a suite of connector courses teaching diverse subjects through the lens of data science
 
-### Jupyter notebooks
-* Provide a natural environment for introducing data science skills to students
-* Let students develop an explicit computational narrative with data
-* Enable browser-based interface to computation in the cloud -- students only need a browser to start programming, interacting with data, and creating a visible record of their analytical steps
+### Design requirements
+* Must be accessible to all incoming first-years at UC Berkeley
+* Assume no computer science background and only high school algebra
+* Get students immediately interacting with data programmatically
+* Can't require students to figure out a local installation -- too huge a barrier
 
-### JupyterHub deployment
-* 
+### Implementation
+* Jupyter notebooks + JupyterHub support a solution satisfying all design requirements
 
-### Course website: [data.org](https://data-8.appspot.com/sp16/course)
+* Why Jupyter notebooks?
+    * Provide a natural environment for introducing data science skills to students
+    * Let students develop an explicit computational narrative with data
+    * Interactive substrate for the online course textbook and computer lab assignments
 
-* [Syllabus + links to lectures](https://data-8.appspot.com/sp16/course)
+* Why JupyterHub?
+    * Multi-user server for Jupyter notebooks can support many users (students, instructors, teaching staff)
+    * Enables browser-based interface to computation in the cloud -- students only need a browser to start programming, interacting with data, and creating a visible record of their analytical steps
+
+### Course website: [data8.org](https://data-8.appspot.com/sp16/course)
+
+![data8-sp16](/screenshots/data8-sp16.png)
+
+* [Syllabus + links to lecture videos](https://data-8.appspot.com/sp16/course)
     * An overview of data science
     * Using Python to manipulate information in table data structures
     * Interpreting and exploring data through visualizations
@@ -43,23 +63,40 @@
     * Inference: Reasoning about populations by computing over samples
     * Models: Making assumptions and exploring their consequences
 
-* [data.org](https://data-8.appspot.com/sp16/course) is primarily a student-facing website and its links to labs and homework assignments will **not** work for anyone who doesn't have a course account
+* [data8.org](https://data-8.appspot.com/sp16/course) is primarily a student-facing website and its links to computer lab assignments will **not** work for anyone who doesn't have a course account
 * We'll show you everything that goes into making these links work for students and how to find the underlying source materials hosted on GitHub across various repositories belonging to the [data-8 organization](https://github.com/data-8)
 
-### Online textbook
+### Online textbook: [www.inferentialthinking.com](http://www.inferentialthinking.com/)
 
-[www.inferentialthinking.com](http://www.inferentialthinking.com/)
+[https://ds8.gitbooks.io/textbook/content/](View the textbook on Gitbooks)
 
-[github repo](https://github.com/data-8/textbook.git)
+![textbook](/screenshots/textbook.png)
+
+Most sections of the online textbook begin with a big blue Interact button
+
+![textbook-interact](/screenshots/textbook-interact.png)
+
+When a student clicks the Interact button, they are redirected to a Jupyter notebook containing an interactive version of the textbook content!
+
+![textbook-interact-jupyterhub](/screenshots/textbook-interact-jupyterhub.png)
+
+### DATA 8 JupyterHub deployment user interface
+
+### Behind the scenes
+
+[textbook github repo](https://github.com/data-8/textbook)
 
     git clone https://github.com/data-8/textbook.git
 
-### Labs + homework assignments are Jupyter notebooks
+[DS8-Interact github repo](https://github.com/data-8/DS8-Interact)
 
-[data8assets](https://github.com/data-8/data8assets)
+    git clone https://github.com/data-8/DS8-Interact.git
+
+### Computer lab assignments are Jupyter notebooks
+
+[data8assets github repo](https://github.com/data-8/data8assets)
 
     git clone https://github.com/data-8/data8assets.git
-
 
 ## JupyterHub deployment
 
@@ -72,7 +109,9 @@
 ## Connector courses
 
 * Suite of [connector courses](https://data-8.appspot.com/sp16/modules/extra_tabs/render?index=3) are taught in departments across campus and introduce diverse subjects through the lens of data science
-* Spring 2016 connector courses in ethics, cognitive science, geospatial data, probability & statistics, ecology, history, matrices & graphs, computational structures, health & human behavior, smart cities, literature
+* Spring 2016 has 11 connector courses: in ethics, cognitive science, geospatial data, probability & statistics, ecology, history, matrices & graphs, computational structures, health & human behavior, smart cities, literature
+* Nearly all use Jupyter notebooks and the DATA 8 JupyterHub deployment
+* Many connector instructors are new to Python and GitHub
 
 ## Technical challenges and possible future directions
 
@@ -84,9 +123,8 @@
 
 * A JupyterHub hub?
 
-* Dropbox-like content management?
-    * [jupyter-synchronized-folders](https://github.com/elaine84/jupyter-synchronized-folders)
-    * See the [design doc](https://github.com/elaine84/jupyter-synchronized-folders/blob/proposal/design.md)
+* A Dropbox-like interface to GitHub to help instructors with content management?
+    * See the [design doc](https://github.com/elaine84/jupyter-synchronized-folders/blob/proposal/design.md) for an experiment called [jupyter-synchronized-folders](https://github.com/elaine84/jupyter-synchronized-folders)
 
 
 ## Other resources
