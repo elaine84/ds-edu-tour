@@ -15,6 +15,14 @@
 * Pointers to current course materials distributed as Jupyter notebooks
 * An overview of the live JupyterHub-based infrastructure
 
+### Some dependencies
+* All course content and software is viewable online
+* You'll need a [GitHub](https://github.com/) account if you want to clone or fork this content
+    * There will be an introduction to [Git](https://git-scm.com/) and [GitHub](https://github.com/) on Friday
+* Course content is distributed as Jupyter notebooks that have several Python dependencies
+    * [Python 3](https://www.python.org/downloads/) and [Jupyter](http://jupyter.readthedocs.org/en/latest/install.html)
+    * The [datascience](https://pypi.python.org/pypi/datascience/) Python package
+
 ## DATA 8: Foundations of Data Science
 
 ### Course overview
@@ -36,13 +44,15 @@
 * Why Jupyter notebooks?
     * Provide a natural environment for introducing data science skills to students
     * Let students develop an explicit computational narrative with data
-    * Interactive online substrate for the course textbook and computer labs
+    * Interactive substrate for the online course textbook and computer lab assignments
 
 * Why JupyterHub?
     * Multi-user server for Jupyter notebooks can support many users (students, instructors, teaching staff)
     * Enables browser-based interface to computation in the cloud -- students only need a browser to start programming, interacting with data, and creating a visible record of their analytical steps
 
 ### Course website: [data8.org](https://data-8.appspot.com/sp16/course)
+
+![data8-sp16](/screenshots/data8-sp16.png]
 
 * [Syllabus + links to lecture videos](https://data-8.appspot.com/sp16/course)
     * An overview of data science
@@ -58,7 +68,21 @@
 
 ### Online textbook: [www.inferentialthinking.com](http://www.inferentialthinking.com/)
 
+[https://ds8.gitbooks.io/textbook/content/](View the textbook on Gitbooks)
+
 ![textbook](/screenshots/textbook.png)
+
+Most sections of the online textbook begin with a big blue Interact button
+
+![textbook-interact](/screenshots/textbook-interact.png)
+
+When a student clicks the Interact button, they are redirected to a Jupyter notebook containing an interactive version of the textbook content!
+
+![textbook-interact-jupyterhub](/screenshots/textbook-interact-jupyterhub.png)
+
+### DATA 8 JupyterHub deployment user interface
+
+### Behind the scenes
 
 [textbook github repo](https://github.com/data-8/textbook)
 
