@@ -1,6 +1,6 @@
 ## Jupyter in UC Berkeley's data science education program
 
-* This document provides a guided tour of information distributed across many web pages and GitHub repositories involved in running a live suite of data science courses at UC Berkeley.
+* This document provides a guided tour of information distributed across many web pages and GitHub repositories involved in running a live suite of data science courses at the University of California, Berkeley.
 * These valuable resources -- designed for and by UC Berkeley students, instructors, and other teaching and support staff -- are publicly available.
 * This content should be of broad interest to diverse folks thinking about data science education, using Jupyter notebooks in the classroom, and/or deploying and scaling JupyterHub.
 
@@ -68,9 +68,9 @@
 
 ### Online textbook: [www.inferentialthinking.com](http://www.inferentialthinking.com/)
 
-[https://ds8.gitbooks.io/textbook/content/](View the textbook on Gitbooks)
-
 ![textbook](/screenshots/textbook.png)
+
+[View the textbook on Gitbooks](https://ds8.gitbooks.io/textbook/content/)
 
 Most sections of the online textbook begin with a big blue Interact button
 
