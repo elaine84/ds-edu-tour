@@ -8,7 +8,7 @@
 
 ### Who is this for?
 * Designed for anyone who wants to learn about UC Berkeley's data science program but doesn't have an account on [data8.berkeley.edu](https://data8.berkeley.edu/)
-* This snapshot is for folks at [JupyterDays Boston 2016](http://blog.jupyter.org/2016/02/16/jupyterdays-boston-2016/) (March 17-18, 2016 in Cambridge, MA) -- hopefully provides plenty of materials to explore, fork, and hack on during Friday's coding and projects session
+* This snapshot is for folks at [JupyterDays Boston 2016](http://blog.jupyter.org/2016/02/16/jupyterdays-boston-2016/) (March 17-18, 2016 in Cambridge, MA) -- hopefully provides plenty of materials to explore, fork, and hack on
 
 ### What will you find here?
 * An overview of the UC Berkeley's new data science education program
@@ -18,7 +18,6 @@
 ### Some dependencies
 * All course content and software is viewable online
 * You'll need a [GitHub](https://github.com/) account if you want to clone or fork this content
-    * There will be an introduction to [Git](https://git-scm.com/) and [GitHub](https://github.com/) on Friday
 * Course content is distributed as Jupyter notebooks that have several Python dependencies
     * [Python 3](https://www.python.org/downloads/) and [Jupyter](http://jupyter.readthedocs.org/en/latest/install.html)
     * The [datascience](https://pypi.python.org/pypi/datascience/) Python package
