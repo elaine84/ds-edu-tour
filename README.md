@@ -95,10 +95,12 @@ When a student clicks the Interact button, they are redirected to a Jupyter note
 * We can convert a notebook into an HTML snippet using [nbconvert](https://github.com/jupyter/nbconvert) ([example HTML](https://github.com/data-8/textbook/blob/gh-pages/notebooks-html/Sampling.html))
 * Then we include that HTML snippet in the Markdown file ([example Markdown](https://github.com/data-8/textbook/blob/gh-pages/chapter3/sampling.md))
 
-    Sampling
-    ========
+```
+Sampling
+========
 
-    {% include "../notebooks-html/Sampling.html" %}
+{% include "../notebooks-html/Sampling.html" %}
+```
 
 #### The Interact button distributes content to students
 
