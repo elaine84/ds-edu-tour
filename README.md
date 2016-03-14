@@ -70,7 +70,7 @@
 
 ![textbook](screenshots/textbook.png)
 
-[View the textbook on Gitbooks](https://ds8.gitbooks.io/textbook/content/)
+Alternatively: [view the textbook on Gitbooks](https://ds8.gitbooks.io/textbook/content/)
 
 Most sections of the online textbook begin with a big blue Interact button
 
@@ -80,13 +80,24 @@ When a student clicks the Interact button, they are redirected to a Jupyter note
 
 ![textbook-interact-jupyterhub](screenshots/textbook-interact-jupyterhub.png)
 
-### What's going on?
+#### What's going on?
+
+* First, we'll explain where the source material is
+* Second, we'll explain the Interact button
 
 [The textbook is hosted in a github repo](https://github.com/data-8/textbook)
 
     git clone https://github.com/data-8/textbook.git
 
-[Gitbook](https://www.gitbook.com/) allows us to [write and organize our chapters using markdown](https://help.gitbook.com/format/chapters.html).
+The underlying source material for the textbook is [written in Jupyter notebooks](https://github.com/data-8/textbook/tree/gh-pages/notebooks) ([example notebook](https://github.com/data-8/textbook/blob/gh-pages/notebooks/Sampling.ipynb))
+
+[Gitbook](https://www.gitbook.com/) allows us to [write and organize chapters using Markdown](https://help.gitbook.com/format/chapters.html)
+
+Conveniently, the [Markdown](https://www.gitbook.com/book/gitbookio/markdown/details) syntax allows arbitrary HTML inline
+
+To get a notebook's content into the textbook, we first convert the notebook into an HTML snippet using [nbconvert](https://github.com/jupyter/nbconvert) ([example HTML](https://github.com/data-8/textbook/blob/gh-pages/notebooks-html/Sampling.html))
+
+Then we include that HTML snippet in the Markdown file ([example Markdown](https://github.com/data-8/textbook/blob/gh-pages/chapter1/functions.md))
 
 [DS8-Interact github repo](https://github.com/data-8/DS8-Interact)
 
