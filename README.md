@@ -52,7 +52,7 @@
 
 ### Course website: [data8.org](https://data-8.appspot.com/sp16/course)
 
-![data8-sp16](/screenshots/data8-sp16.png)
+![data8-sp16](screenshots/data8-sp16.png)
 
 * [Syllabus + links to lecture videos](https://data-8.appspot.com/sp16/course)
     * An overview of data science
@@ -68,17 +68,17 @@
 
 ### Online textbook: [www.inferentialthinking.com](http://www.inferentialthinking.com/)
 
-![textbook](/screenshots/textbook.png)
+![textbook](screenshots/textbook.png)
 
 [View the textbook on Gitbooks](https://ds8.gitbooks.io/textbook/content/)
 
 Most sections of the online textbook begin with a big blue Interact button
 
-![textbook-interact](/screenshots/textbook-interact.png)
+![textbook-interact](screenshots/textbook-interact.png)
 
 When a student clicks the Interact button, they are redirected to a Jupyter notebook containing an interactive version of the textbook content!
 
-![textbook-interact-jupyterhub](/screenshots/textbook-interact-jupyterhub.png)
+![textbook-interact-jupyterhub](screenshots/textbook-interact-jupyterhub.png)
 
 ### DATA 8 JupyterHub deployment user interface
 
