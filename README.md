@@ -36,7 +36,7 @@
 
 * [Syllabus + links to lectures](https://data-8.appspot.com/sp16/course)
     * An overview of data science
-    * Using Python to manipulate information in a table data structure
+    * Using Python to manipulate information in table data structures
     * Interpreting and exploring data through visualizations
     * Sampling: Understanding the behavior of random selection
     * Making predictions from data
