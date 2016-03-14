@@ -52,7 +52,7 @@
 
 ### Course website: [data8.org](https://data-8.appspot.com/sp16/course)
 
-![data8-sp16](/screenshots/data8-sp16.png)
+![https://data-8.appspot.com/sp16/course](/screenshots/data8-sp16.png)
 
 * [Syllabus + links to lecture videos](https://data-8.appspot.com/sp16/course)
     * An overview of data science
