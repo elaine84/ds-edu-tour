@@ -1,7 +1,7 @@
-## A guided tour of Jupyter in UC Berkeley's data science education program
+## Jupyter in UC Berkeley's data science education program
 
-* This document compiles information distributed across many web pages and GitHub repositories involved in running a live suite of data science courses.
-* These valuable resources -- designed for and by UC Berkeley students, instructors, and others supporting classes at Berkeley -- are publicly available.
+* This document provides a guided tour of information distributed across many web pages and GitHub repositories involved in running a live suite of data science courses at UC Berkeley.
+* These valuable resources -- designed for and by UC Berkeley students, instructors, and other teaching and support staff -- are publicly available.
 * This content should be of broad interest to diverse folks thinking about data science education, using Jupyter notebooks in the classroom, and/or deploying and scaling JupyterHub.
 
 **Keywords: data science, UC Berkeley, undergraduate education, Jupyter notebooks, JupyterHub deployment**
@@ -17,24 +17,34 @@
 
 ## DATA 8: Foundations of Data Science
 
-### Course overview
+### Overview
 * Teaches computational and inferential (statistical) thinking through interaction with real data
-* Aimed at incoming first-years at UC Berkeley
-* Assumes no computer science background and only high school algebra
 * Pilot run in Fall 2015 with ~80 students
 * Current Spring 2016 enrollment at ~470 students
+* Three 50 min lectures + 2 hour computer lab session per week
+* Enriched by a suite of connector courses teaching diverse subjects through the lens of data science
 
-### Jupyter notebooks
-* Provide a natural environment for introducing data science skills to students
-* Let students develop an explicit computational narrative with data
-* Enable browser-based interface to computation in the cloud -- students only need a browser to start programming, interacting with data, and creating a visible record of their analytical steps
+### Course design requirements
+* Must be accessible to all incoming first-years at UC Berkeley
+* Assume no computer science background and only high school algebra
+* Get students immediately interacting with data programmatically
+* Can't require students to figure out a local installation -- too huge a barrier
 
-### JupyterHub deployment
-* 
+### Implementation
+* Jupyter notebooks + JupyterHub support a solution satisfying all design requirements
 
-### Course website: [data.org](https://data-8.appspot.com/sp16/course)
+* Why Jupyter notebooks?
+    * Provide a natural environment for introducing data science skills to students
+    * Let students develop an explicit computational narrative with data
+    * Interactive online substrate for the course textbook and computer labs
 
-* [Syllabus + links to lectures](https://data-8.appspot.com/sp16/course)
+* Why JupyterHub?
+    * Multi-user server for Jupyter notebooks can support many users (students, instructors, teaching staff)
+    * Enables browser-based interface to computation in the cloud -- students only need a browser to start programming, interacting with data, and creating a visible record of their analytical steps
+
+### Course website: [data8.org](https://data-8.appspot.com/sp16/course)
+
+* [Syllabus + links to lecture videos](https://data-8.appspot.com/sp16/course)
     * An overview of data science
     * Using Python to manipulate information in a table data structure
     * Interpreting and exploring data through visualizations
@@ -71,7 +81,9 @@
 ## Connector courses
 
 * Suite of [connector courses](https://data-8.appspot.com/sp16/modules/extra_tabs/render?index=3) are taught in departments across campus and introduce diverse subjects through the lens of data science
-* Spring 2016 connector courses in ethics, cognitive science, geospatial data, probability & statistics, ecology, history, matrices & graphs, computational structures, health & human behavior, smart cities, literature
+* Spring 2016 has 11 connector courses: in ethics, cognitive science, geospatial data, probability & statistics, ecology, history, matrices & graphs, computational structures, health & human behavior, smart cities, literature
+* Nearly all use Jupyter notebooks and the DATA 8 JupyterHub deployment
+* Many connector instructors are new to Python and GitHub
 
 ## Technical challenges and possible future directions
 
