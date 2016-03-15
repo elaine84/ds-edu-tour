@@ -37,14 +37,14 @@
 * Meant as a foundation for advanced courses to be seeded across the university
 * See the report on [Data Sciences @ Berkeley: The Undergraduate Experience](http://ls.berkeley.edu/files/file/Data%20Sciences%20Education%20Sketch%201.2_0.pdf)
 
-### Design requirements
+### Course design requirements
 * Must be accessible to all incoming first-years at UC Berkeley
 * Assume no computer science background and only high school algebra
 * Get students immediately interacting with data programmatically
 * Can't require students to figure out a local installation -- too huge a barrier
 * Provide a platform (technical and intellectual) that students can build on throughout their college careers
 
-### Implementation
+### Implementation highlights
 * Jupyter notebooks + JupyterHub support a solution satisfying all design requirements
 
 * Why Jupyter notebooks?
@@ -208,9 +208,13 @@ An Interact button in the textbook ([example section](http://www.inferentialthin
       management
         - See the [design doc][jhub-synced-design] for an experiment called
           [jupyter-synchronized-folders][jhub-synced]
+        - The design doc is structured as (but is not) a [Jupyter Enhancement Proposal][jep]
+        - We'd love to hear comments via [this pull request][jhub-synced-pull]
 
 [jhub-synced-design]: https://github.com/elaine84/jupyter-synchronized-folders/blob/proposal/design.md
 [jhub-synced]: https://github.com/elaine84/jupyter-synchronized-folders
+[jep]: https://github.com/jupyter/enhancement-proposals
+[jhub-synced-pull]: https://github.com/elaine84/jupyter-synchronized-folders/pull/2
 
 ## Other resources
 * [jupyter-education Google
