@@ -170,12 +170,11 @@ An Interact button in the textbook ([example section](http://www.inferentialthin
 
     ![Error reporting forum thread][forum-thread-img]
 
-- Now we have [a team of students][infra-team] rushing to add tooling to make
-  deployment more stable. This includes a [development deployment][dev-jhub],
-  [logging and monitoring][logging], and [load testing][load-testing].
+- Now we have a team of students adding tooling to make deployment more stable.
+  This includes a [development deployment][dev-jhub], [logging and
+  monitoring][logging], and [load testing][load-testing].
 
 [race-condition]: https://github.com/jupyter/jupyterhub/issues/410
-[infra-team]: https://docs.google.com/document/d/1f9Md4L-Nr-R1khlaGH5oNf_LYUQV5640syQTUmAdaWs/edit?usp=sharing
 [forum-thread-img]: https://www.dropbox.com/s/535f0ck4feizp1u/Screenshot%202016-03-14%2023.58.44.png?dl=1
 [dev-jhub]: https://docs.google.com/document/d/1ami0zbF3Z6KOhA5j_mqzoDPeoUaRXDkxxPtzVvwKCDk/edit?usp=sharing
 [logging]: https://docs.google.com/document/d/14l7Goct2Xch4EBCSuO_-SKTAw3vxXO_WtCNB11Xo-SY/edit?usp=sharing
