@@ -184,12 +184,28 @@ An Interact button in the textbook ([example section](http://www.inferentialthin
 
 ### Scaling **out** to more classes
 
-* A JupyterHub hub?
+- Scaling out is another ordeal. Our goal is to have one JupyterHub deployment
+  that can serve all the classes at UC Berkeley. Adding JupyterHub for a class
+  should be as easy as creating a class page.
+- At the moment, JupyterHub consolidates all users into one system. We need to
+  split the users into multiple classes.
+- Problems that need solving:
+    - Classrooms have different resources. Some might have AWS credits, others
+      can have Azure credits, etc.
+    - Students should be able to access different hubs for different classes.
+    - Instructors need a way to distribute content to students.
+    - Ideally, instructors can also grade assignments easily.
+- Proposals to solve these problems:
+    - A JupyterHub Hub, which lists and manages deployments of JupyterHub
+    - A Dropbox-like interface to GitHub to help instructors with content
+      management
+        - See the [design doc][jhub-synced-design] for an experiment called
+          [jupyter-synchronized-folders][jhub-synced]
 
-* A Dropbox-like interface to GitHub to help instructors with content management?
-    * See the [design doc](https://github.com/elaine84/jupyter-synchronized-folders/blob/proposal/design.md) for an experiment called [jupyter-synchronized-folders](https://github.com/elaine84/jupyter-synchronized-folders)
-
+[jhub-synced-design]: https://github.com/elaine84/jupyter-synchronized-folders/blob/proposal/design.md
+[jhub-synced]: https://github.com/elaine84/jupyter-synchronized-folders
 
 ## Other resources
-* [jupyter-education Google Group](https://groups.google.com/forum/#!forum/jupyter-education)
+* [jupyter-education Google
+  Group](https://groups.google.com/forum/#!forum/jupyter-education)
 * [JupyterHub Gitter channel](https://gitter.im/jupyter/jupyterhub)
