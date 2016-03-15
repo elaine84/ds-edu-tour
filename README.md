@@ -137,11 +137,12 @@ An Interact button in the textbook ([example section](http://www.inferentialthin
 
 - For our Fall 2015 pilot of ~80 students, we deployed JupyterHub on bare-metal
   machines from UC Berkeley's CS department.
-- We gave each student 2GB of RAM. We expected about 50% of the class to be on
-  at any point in time, so we provisioned two nodes with 26GB RAM each.
-  TODO(sam): Verify these numbers.
+- We gave each student 2GB of RAM. We expected about 60% of the class to be on
+  at any point in time, so we provisioned two machines with 64 cores and 26GB
+  RAM each.
 - For the Spring 2016 class of ~480 students, we used a donation from [Microsoft
-  Azure][azure] and deployed there, using 36 nodes of 14GB RAM each.
+  Azure][azure] and deployed there, using 36 machines with 8 cores and 14GB RAM
+  each.
 
 [data8-jhub]: https://github.com/data-8/jupyterhub-deploy
 [comp-jhub]: https://github.com/compmodels/jupyterhub-deploy
