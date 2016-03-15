@@ -1,4 +1,4 @@
-## Jupyter in UC Berkeley's data science education program
+## Jupyter in UC Berkeley's Data Science Education Program
 
 * This document provides a guided tour of information distributed across many web pages and GitHub repositories involved in running a live suite of data science courses at the University of California, Berkeley.
 * These valuable resources -- designed for and by UC Berkeley students, instructors, and other teaching and support staff -- are publicly available.
@@ -24,18 +24,25 @@
 
 ## DATA 8: Foundations of Data Science
 
-### Course overview
+### [Course overview](https://data-8.appspot.com/sp16/modules/extra_tabs/render?index=0)
 * Teaches computational and inferential (statistical) thinking through interaction with real data
 * Pilot run in Fall 2015 with ~80 students
 * Current Spring 2016 enrollment at ~470 students
 * Three 50 min lectures + 2 hour computer lab session per week
-* Enriched by a suite of connector courses teaching diverse subjects through the lens of data science
+
+### Broader context: The Data Science Education Program
+* Program website: [databears.berkeley.edu](http://databears.berkeley.edu/)
+* DATA 8 is new, fast-moving, growing, and the intention is to keep growing (up to 3000 students/semester)
+* Complemented by a suite of connector courses teaching diverse subjects through the lens of data science
+* Meant as a foundation for advanced courses to be seeded across the university
+* See the report on [Data Sciences @ Berkeley: The Undergraduate Experience](http://ls.berkeley.edu/files/file/Data%20Sciences%20Education%20Sketch%201.2_0.pdf) by the Data Sciences Education Rapid Action Team
 
 ### Design requirements
 * Must be accessible to all incoming first-years at UC Berkeley
 * Assume no computer science background and only high school algebra
 * Get students immediately interacting with data programmatically
 * Can't require students to figure out a local installation -- too huge a barrier
+* Provide a platform (technical and intellectual) that students can build on throughout their college careers
 
 ### Implementation
 * Jupyter notebooks + JupyterHub support a solution satisfying all design requirements
