@@ -123,9 +123,30 @@ An Interact button in the textbook ([example section](http://www.inferentialthin
 
     git clone https://github.com/data-8/jupyterhub-deploy.git
 
-* The [JupyterHub deployment for DATA 8](https://github.com/data-8/jupyterhub-deploy) is based on [Jessica Hamrick](http://www.jesshamrick.com/)'s [jupyterhub-compmodels-deploy](https://github.com/compmodels/jupyterhub-deploy) for a UC Berkeley course, Computational Models of Cognition (COGSCI 131)
+- We were about to level out a new basement to give students computers with
+  Jupyter installed...
+- ...until we discovered that [Jessica Hamrick](http://www.jesshamrick.com/) had
+  deployed JupyterHub to the cloud. We thought we could do it too.
+- We based [our deployment][data8-jhub] on Jess' [jupyterhub-compmodels-deploy]
+  [comp-jhub].
+- See Jessica's blog post at Rackspace on [Deploying JupyterHub for Education]
+  [jhub-post] and also her README at [jupyterhub-compmodels-deploy][comp-jhub]
+  for the design details.
 
-* See Jessica's blog post at Rackspace on [Deploying JupyterHub for Education](https://developer.rackspace.com/blog/deploying-jupyterhub-for-education/) and also her README at [jupyterhub-compmodels-deploy](https://github.com/compmodels/jupyterhub-deploy)
+### Technical specs
+
+- For our Fall 2015 pilot of ~80 students, we deployed JupyterHub on bare-metal
+  machines from UC Berkeley's CS department.
+- We gave each student 2GB of RAM. We expected about 50% of the class to be on
+  at any point in time, so we provisioned two nodes with 26GB RAM each.
+  TODO(sam): Verify these numbers.
+- For the Spring 2016 class of ~480 students, we used a donation from [Microsoft
+  Azure][azure] and deployed there, using 36 nodes of 14GB RAM each.
+
+[data8-jhub]: https://github.com/data-8/jupyterhub-deploy
+[comp-jhub]: https://github.com/compmodels/jupyterhub-deploy
+[jhub-post]: https://developer.rackspace.com/blog/deploying-jupyterhub-for-education/
+[azure]: https://azure.microsoft.com/
 
 ## Connector courses
 
@@ -138,7 +159,28 @@ An Interact button in the textbook ([example section](http://www.inferentialthin
 
 ### Scaling **up** to more students
 
-* Adding users reveals bugs
+- Theoretically, scaling up to more students means we can just add more nodes to
+  the JupyterHub deployment to get the computing power in. However...
+- ...we're now discovering bugs that are only discoverable when dealing with
+  scale.
+- We were haunted by [a race condition][race-condition] in JupyterHub that
+  resulted in large amounts of 503 errors for weeks.
+- We've had to make a forum thread for these issues. Students still run into
+  them every day.
+
+    ![Error reporting forum thread][forum-thread-img]
+
+- Now we have [a team of students][infra-team] rushing to add tooling to make
+  deployment more stable. This includes a [development deployment][dev-jhub],
+  [logging and monitoring][logging], and [load testing][load-testing].
+
+[race-condition]: https://github.com/jupyter/jupyterhub/issues/410
+[infra-team]: https://docs.google.com/document/d/1f9Md4L-Nr-R1khlaGH5oNf_LYUQV5640syQTUmAdaWs/edit?usp=sharing
+[forum-thread-img]: https://www.dropbox.com/s/535f0ck4feizp1u/Screenshot%202016-03-14%2023.58.44.png?dl=1
+[dev-jhub]: https://docs.google.com/document/d/1ami0zbF3Z6KOhA5j_mqzoDPeoUaRXDkxxPtzVvwKCDk/edit?usp=sharing
+[logging]: https://docs.google.com/document/d/14l7Goct2Xch4EBCSuO_-SKTAw3vxXO_WtCNB11Xo-SY/edit?usp=sharing
+[load-testing]: https://docs.google.com/document/d/1YFLP-O4B86_2A91sdvO7Rpq2on0Cx5cyFF74MN8pXTY/edit?usp=sharing
+
 
 ### Scaling **out** to more classes
 
