@@ -29,7 +29,6 @@
 * Pilot run in Fall 2015 with ~80 students
 * Current Spring 2016 enrollment at ~470 students
 * Three 50 min lectures + 2 hour computer lab session per week
-* [See the course website for additional info](https://data-8.appspot.com/sp16/modules/extra_tabs/render?index=0)
 
 ### Broader context: The Data Science Education Program
 * Program website: [databears.berkeley.edu](http://databears.berkeley.edu/)
