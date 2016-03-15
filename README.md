@@ -24,18 +24,19 @@
 
 ## DATA 8: Foundations of Data Science
 
-### [Course overview](https://data-8.appspot.com/sp16/modules/extra_tabs/render?index=0)
+### Course overview
 * Teaches computational and inferential (statistical) thinking through interaction with real data
 * Pilot run in Fall 2015 with ~80 students
 * Current Spring 2016 enrollment at ~470 students
 * Three 50 min lectures + 2 hour computer lab session per week
+* [See the course website for additional info](https://data-8.appspot.com/sp16/modules/extra_tabs/render?index=0)
 
 ### Broader context: The Data Science Education Program
 * Program website: [databears.berkeley.edu](http://databears.berkeley.edu/)
 * DATA 8 is new, fast-moving, growing, and the intention is to keep growing (up to 3000 students/semester)
 * Complemented by a suite of connector courses teaching diverse subjects through the lens of data science
 * Meant as a foundation for advanced courses to be seeded across the university
-* See the report on [Data Sciences @ Berkeley: The Undergraduate Experience](http://ls.berkeley.edu/files/file/Data%20Sciences%20Education%20Sketch%201.2_0.pdf) by the Data Sciences Education Rapid Action Team
+* See the report on [Data Sciences @ Berkeley: The Undergraduate Experience](http://ls.berkeley.edu/files/file/Data%20Sciences%20Education%20Sketch%201.2_0.pdf)
 
 ### Design requirements
 * Must be accessible to all incoming first-years at UC Berkeley
