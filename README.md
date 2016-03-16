@@ -118,7 +118,7 @@ An Interact button in the textbook ([example section](http://www.inferentialthin
 
     git clone https://github.com/data-8/DS8-Interact.git
 
-### DATA 8 JupyterHub deployment user interface
+<!--- ### DATA 8 JupyterHub deployment user interface -->
 
 ### Computer lab assignments are Jupyter notebooks
 
